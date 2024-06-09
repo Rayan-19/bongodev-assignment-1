@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(18, 18, 18, 0.895);
+    color: aliceblue;
+}
+img{
+    width: 260px;
+}
+
+.video-preview{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: 150px;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.video-detailes{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.video-detailes p:not(.title){
+    font-size: 16px;
+}
+
+.video-container{
+    display: grid;
+    grid-template-columns: 600px;
+    row-gap: 20px;
+    padding: 40px 20px;
+    justify-content: center;
+
+}
+.bottom-row{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
