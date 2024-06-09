@@ -8,11 +8,16 @@ a,li{
     list-style: none;
     color: white;
 }
+
 nav{
     background-color: rgba(20, 20, 20, 0.861);
     display: flex;
     justify-content: end;
     padding:15px 80px;
+}
+.nav-links-container{
+    display: flex;
+    gap: 310px;
 }
 
 .nav-links{
