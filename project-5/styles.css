@@ -57,8 +57,14 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0px;
 }
+
+
+
+.banner p:last-child{
+    margin-left: -20px;
+}
+
 
 .banner p{
     font-size: 100px;
@@ -68,9 +74,11 @@ button{
 
 .title{
     color: aliceblue;
+    z-index: 1;
 }
 .accent-color{
     color:  rgb(211, 102, 0);
+    z-index: 2;
 }
 
 main{
